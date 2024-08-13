@@ -1,9 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
-import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
-import SlideImageComponent from "../../components/cart/home-page-components/SlideImageComponent";
 import CategoryLocation from "../../components/cart/home-page-components/CategoryLocation";
 import HeroSection from "../../components/cart/home-page-components/HeroSection";
 import HomeProfile from "../../components/cart/home-page-components/HomeProfile";
@@ -125,7 +123,6 @@ export function HomeNotLogin() {
       </div>
 
       <DropdownCategory />
-      <SlideImageComponent />
 
       <div className="flex px-6 lg:px-24 justify-center mt-20 text-[#022278] dark:text-Secondary text-xl font-semibold">
         <div className="w-full max-w-[1286px]">
